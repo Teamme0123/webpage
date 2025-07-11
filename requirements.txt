@@ -1,0 +1,19 @@
+Django~=5.2.4
+djangorestframework~=3.16.0
+Pillow~=11.3.0
+psycopg2-binary~=2.9.10
+djangorestframework-simplejwt~=5.5.0
+django-filter~=25.1
+# For production, you'd also add Gunicorn:
+# gunicorn
+
+# If you later add django-storages for S3 etc:
+# django-storages
+# boto3
+
+# If you add Celery/Redis for notifications:
+# celery
+# redis
+
+# If you add django-cors-headers for deployment:
+# django-cors-headers
